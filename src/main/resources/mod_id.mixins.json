@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.njf.better_random_block_placement.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
+  "client": [
+    "PlacementMixin"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "better_random_block_placement",
+  "version": "${version}",
+  "name": "Better Random Block Placement",
+  "description": "This Mod allows anyone to achieve better random block placement.",
+  "authors": [
+    "Nathan Jeremy Funk"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "issues": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+  "icon": "assets/better_random_block_placement/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.njf.better_random_block_placement.BetterRandomBlockPlacement"
+      }
+    ]
+  },
+  "mixins": [
+    "mod_id.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
